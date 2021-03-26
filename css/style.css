@@ -86,6 +86,7 @@ main .nav-logo  a{
 /* nav center main pt sx*/
 .list-bottom{
   padding: 10px 23px;
+  overflow:hidden ;
 }
 
 .list-bottom h4{
@@ -107,6 +108,9 @@ main .nav-logo  a{
   vertical-align: middle;
 }
 
+.list-menu-bottom{
+  overflow-y: auto;
+}
 
 .list-menu-bottom li{
   margin: 10px 0;
