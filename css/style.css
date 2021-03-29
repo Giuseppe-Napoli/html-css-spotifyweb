@@ -250,7 +250,7 @@ main > #content{
 
 .covers h2{
   margin: 10px 10px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   color: white;
 }
@@ -263,7 +263,9 @@ main > #content{
 
 }
 
-.row-recently{
+.row-recently,
+.row-album,
+.row-artisti{
   padding: 20px;
 }
 .row-album-recently{
@@ -275,12 +277,11 @@ main > #content{
   width: calc(100% / 6 - 20px);
   text-align: center;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 0 10px 30px;
 }
 
 .box-img .bk-img img{
   width: 100%;
-  margin-bottom: 15px;
 }
 
 
@@ -316,16 +317,24 @@ main > #content{
   border-radius: 50%;
 }
 
-.nascosto img{
-  display: inline-block;
+.text-album{
+  margin-top: 20px;
 }
 
 
 .box-img h4,
 .box-img p{
-  font-size: 90%;
+  font-size: 95%;
   padding: 7px 0;
 
+}
+
+.row-artisti .box-img .bk-img img{
+  border-radius: 50%;
+}
+
+.row-artisti .box-img .bk-img .nascosto{
+  border-radius: 50%;
 }
   
 /* FOOTER */
